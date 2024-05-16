@@ -7,7 +7,7 @@ body {
 
 .App {
   text-align: center;
-  background-color: #fffffd; /* lighter creme color */
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -25,15 +25,19 @@ body {
 .title {
   font-size: 4em;
   margin: 0.5em 0;
-  font-family: 'Fredoka One';
-  font-weight: bold;
+  font-family: 'Lilita One';
+  color: #3fc33c;
 }
 
 .description {
   font-size: 1.2em;
-  margin: 0.2em; /* Reduced margin */
+  margin: 0.2em;
+  font-family: 'Inter';
+  max-width: 450px;
+  line-height: 1.5;
+  word-wrap: break-word;
 }
 
 .widget-container {
-  margin-top: 10px; /* Reduced margin */
+  margin-top: 10px;
 }
